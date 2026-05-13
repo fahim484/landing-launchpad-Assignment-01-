@@ -24,6 +24,7 @@
 body {
   min-height: 100vh;
   width: 100%;
+  background-color: var(--background-color);
 }
 :root {
   --primary-color: #4e47ff;
@@ -31,7 +32,7 @@ body {
   --accent-color: #252432;
   --para-color: rgba(37, 36, 50, 50%);
   --font-color: #333;
-  --background-color: #f5f5f5;
+  --background-color: #F5F8FF;
 }
 
 .container {
@@ -40,7 +41,7 @@ body {
   padding: 20px 15px;
 }
 
-.header {
+.header-section {
   background-image: url("../assets/Hero-bg.png");
   background-size: cover;
   background-position: center;
@@ -75,9 +76,27 @@ body {
   font-weight: 900;
 }
 
+.section-title {
+  line-height: auto;
+  color: var(--accent-color);
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 
+.section-description {
+  font-size: 18px;
+  line-height: auto;
+  color: var(--para-color);
+  margin-top: 20px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 /*! Common or Shared Styles End */
-/* Navbar/Navigation Styles Start */
+
+/* Navbar/Navigation Section Styles Start */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -88,19 +107,45 @@ body {
   font-size: 34px;
   line-height: 51px;
 }
-/* Navbar/Navigation Styles End */
+/* Navbar/Navigation Section Styles End */
 
-/* Banner/Herobox Styles Start */
-.banner {
+/* Banner/Herobox Section Styles Start */
+.banner-section {
   text-align: center;
   padding: 200px 0 150px 0;
 }
 
-.banner h1 {
+.banner-section h1 {
   font-size: 65px;
   line-height: auto;
   color: var(--accent-color);
   font-weight: 700;
   margin-bottom: 35px;
 }
-/* Banner/Herobox Styles End */
+/* Banner/Herobox Section Styles End */
+
+/* Action Content Section Styles Start */
+.action-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 115px 0;
+}
+
+.action-content-left h2 {
+  font-size: 42px;
+  margin-bottom: 23px;
+}
+
+.action-content-left p {
+  font-size: 24px;
+  line-height: 30px;
+  color: var(--para-color);
+  margin-bottom: 23px;
+}
+.action-content-right img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 48px;
+}
+/* Action Content Section Styles End */
