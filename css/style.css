@@ -1,8 +1,10 @@
 /*! Global Styles Start */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /*! Global Styles End */
 /*? Google Fonts Styles Start */
@@ -19,5 +21,86 @@
 /*? Google Fonts Styles End */
 
 /*! Common or Shared Styles Start */
+body {
+  min-height: 100vh;
+  width: 100%;
+}
+:root {
+  --primary-color: #4e47ff;
+  --secondary-color: #000000;
+  --accent-color: #252432;
+  --para-color: rgba(37, 36, 50, 50%);
+  --font-color: #333;
+  --background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 20px 15px;
+}
+
+.header {
+  background-image: url("../assets/Hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.primary-btn {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 10px 36px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  transition: all 0.3s ease;
+}
+
+.primary-btn:hover {
+  background-color: #3b3bff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.logo h1 a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 900;
+}
+
 
 /*! Common or Shared Styles End */
+/* Navbar/Navigation Styles Start */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+.small-logo {
+  font-size: 34px;
+  line-height: 51px;
+}
+/* Navbar/Navigation Styles End */
+
+/* Banner/Herobox Styles Start */
+.banner {
+  text-align: center;
+  padding: 200px 0 150px 0;
+}
+
+.banner h1 {
+  font-size: 65px;
+  line-height: auto;
+  color: var(--accent-color);
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+/* Banner/Herobox Styles End */
