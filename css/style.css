@@ -149,3 +149,40 @@ body {
   border-radius: 48px;
 }
 /* Action Content Section Styles End */
+
+/* Productive Users Section Styles Start */
+.productive-users-section {
+  background-color: rgba(78, 71, 255, 10%);;
+  text-align: center;
+  padding: 50px 0;
+  border-radius: 24px;
+  margin-bottom: 137px;
+}
+
+.productive-users-section h2 {
+  font-size: 38px;
+  margin-bottom: 40px;
+}
+
+.productive-users-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.productive-users-content-count h4 {
+  font-size: 80px;
+  line-height: auto;
+  color: var(--primary-color);
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.productive-users-content-count p {
+  font-size: 20px;
+  line-height: auto;
+  color: rgba(0, 0, 0, 50%);
+  font-weight: 500;
+}
+/* Productive Users Section Styles End */
