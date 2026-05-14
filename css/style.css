@@ -41,6 +41,10 @@ body {
   padding: 20px 15px;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .header-section {
   background-image: url("../assets/Hero-bg.png");
   background-size: cover;
@@ -186,3 +190,83 @@ body {
   font-weight: 500;
 }
 /* Productive Users Section Styles End */
+
+/* What Our Users Say Section Styles Start */
+.what-our-users-say-section {
+  margin-bottom: 137px;
+}
+.what-our-users-say-section h2{
+  font-size: 42px;
+  margin-bottom: 50px;
+}
+
+.what-our-users-say-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.what-our-users-say-content-card{
+  background-color: #FFFFFF;
+  max-width: 367px;
+  border: 1px solid #F2EDED;
+  padding: 24px;
+  border-radius: 14px;
+}
+
+.what-our-users-say-content-card-icons{
+  display: flex;
+  align-items: start;
+  gap: 4px;
+  margin-bottom: 24px;
+}
+
+.what-our-users-say-content-card-icons img {
+  height: 20px;
+  width: 20px;
+}
+
+.what-our-users-say-content-card-text{
+  color: #1E1E1E;
+}
+
+.what-our-users-say-content-card-text h5{
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.what-our-users-say-content-card-text p{
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 24px;
+}
+
+.what-our-users-say-content-card-author{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.what-our-users-say-content-card-author img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.what-our-users-say-content-card-author-text{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.what-our-users-say-content-card-author-text h6{
+  color: #757575;
+}
+
+.what-our-users-say-content-card-author-text p {
+  color: #B3B3B3;
+}
+/* What Our Users Say Section Styles End */
