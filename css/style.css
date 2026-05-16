@@ -31,6 +31,7 @@ body {
   --secondary-color: #000000;
   --accent-color: #252432;
   --para-color: rgba(37, 36, 50, 50%);
+  --small-para-color: rgba(0, 0, 0, 50%);
   --font-color: #333;
   --background-color: #F5F8FF;
 }
@@ -270,3 +271,30 @@ body {
   color: #B3B3B3;
 }
 /* What Our Users Say Section Styles End */
+
+/* Ready To Focus Better Section Styles Start */
+.ready-to-focus-better-section{
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 71px 150px;
+  margin-bottom: 92px;
+  border-radius: 14px;
+}
+.ready-to-focus-better-section h2 {
+  font-size: 50px;
+}
+
+.ready-to-focus-better-section p {
+  color: var(--small-para-color);
+  margin: 20px 0;
+}
+
+.ready-to-focus-better-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 48px;
+}
+/* Ready To Focus Better Section Styles End */
