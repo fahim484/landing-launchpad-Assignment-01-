@@ -332,3 +332,43 @@ textarea {
   color: var(--small-para-color);
 }
 /* Let's Get In Touch Section Styles End */
+
+/* Footer Section Start */
+.footer-section {
+  text-align: center;
+  padding: 104px 0;
+  background-color: #FFFFFF;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.large-logo {
+  font-size: 100px;
+  line-height: auto;
+  margin-bottom: 8px;
+}
+
+.footer-section-content-text {
+  color: #8987A1;
+}
+
+.footer-section-content-text ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  margin-top: 20px;
+}
+
+.footer-section-content-text ul li a {
+  text-decoration: none;
+  color: #8987A1;
+}
+
+.footer-section-content-text ul li a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--primary-color);
+  text-decoration-thickness: 2px;
+  text-decoration-style: solid;
+}
+/* Footer Section End */
